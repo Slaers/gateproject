@@ -1,0 +1,29 @@
+header {
+	.navbar {
+		height: 80px;
+		width: 100%;
+		.logo {
+			.btnlogo {
+				font-size: 150%;
+				font-family: 'Do Hyeon', sans-serif;
+			}
+		}
+		ul {
+			li {
+				display: inline-block;
+				margin-right: 100px;
+				margin-top: 20px;
+				.btnlink {
+					float: left;
+				} 
+			}
+		}
+		a {
+			color: #f5f5dc;
+			&:hover{
+				color:#fa8072;
+				text-decoration: none;
+			}	
+		}
+	}
+}

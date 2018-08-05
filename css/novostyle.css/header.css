@@ -1,0 +1,25 @@
+header .navbar {
+  height: 80px;
+  width: 100%;
+}
+header .navbar .logo .btnlogo {
+  font-size: 150%;
+  font-family: "Do Hyeon", sans-serif;
+}
+header .navbar ul li {
+  display: inline-block;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+header .navbar ul li .btnlink {
+  float: left;
+}
+header .navbar a {
+  color: #f5f5dc;
+}
+header .navbar a:hover {
+  color: #fa8072;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=header.css.map */
