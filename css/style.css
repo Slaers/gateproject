@@ -1,6 +1,9 @@
 @import url("bootstrap.min.css");
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
 
+body {
+	background: #d3d3d3;
+}
 
 header .navbar {
 	height: 80px;
@@ -8,7 +11,7 @@ header .navbar {
 }
 
 header .navbar .logo {
-	margin-top: 20px;
+	margin-top: 15px;
 }
 
 header .navbar .logo .imglogo {
@@ -19,22 +22,24 @@ header .navbar .logo .imglogo {
 
 header .navbar .logo .btnlogo {
 	font-family: 'Julius Sans One', sans-serif;
-	margin-left: 20px;
+	margin-left: 15px;
 	margin-right: 500px;
 	font-size: 16px; 
 }
 
 header .navbar .logo .btnlogo .btndec {
+	margin-left: 7px;
 	font-weight: bold;
 	font-size: 20px;
 	font-family: 'Julius Sans One', sans-serif;
 }
 
-header .navbar ul li {
+header .navbar div ul li {
 	display: inline-block;
 	margin-right: 30px;
 	margin-top: 20px;
 }
+
 header .navbar .btnlink {
 	float: left;
 }
@@ -48,8 +53,10 @@ header .navbar a {
 	font-size: 14px;
 	color: #f5f5dc;
 }
+
 header .navbar a:hover {
 	color:#fa8072;
 	text-decoration: none;
 }
+
 
