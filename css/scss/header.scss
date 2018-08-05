@@ -1,5 +1,11 @@
 @import url("bootstrap.min.css");
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+body {
+	background-image: url("../img/bg1.jpg");
+	background-repeat: no-repeat;
+	background-size: 1920px;
+	background-position-x: center;  
+}
 header {
 	.navbar {
 		height: 80px;
@@ -17,10 +23,11 @@ header {
 					margin-right: 500px;
 					font-size: 16px;
 					.btndec {
+						margin-left: 10px; 
 						font-weight: bold;
 						font-size: 20px;
 						font-family: 'Julius Sans One', sans-serif;
-						} 
+					} 
 				}
 		}
 		ul {
