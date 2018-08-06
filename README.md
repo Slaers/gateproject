@@ -1,3 +1,3 @@
 # oneproject
-# projeto de estudos para aprender as ferramentas necessarias
-# ferramentas usadas no momento "html, css, sass, github, js e jquery"
+# projeto de estudos
+# ferramentas usadas até o momento "html, css, sass, github, js, jquery e php com servidor xampp"
