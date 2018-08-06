@@ -3,13 +3,13 @@
 body {
   background-image: url("../img/bg2.png");
   background-repeat: no-repeat;
-  background-size: 1920px;
+  background-size: 2300px;
   background-position-x: center;
 }
 
 header .navbar {
   height: 80px;
-  width: 100%;
+  width: 1920px;
 }
 header .navbar .logo {
   margin-top: 20px;
@@ -40,6 +40,7 @@ header .navbar ul li .btnlink {
   float: left;
 }
 header .navbar .btnsteam .btn {
+  color: #343a40;
   margin-right: 300px;
   font-size: 15px;
 }
@@ -48,22 +49,28 @@ header .navbar a {
   color: #f5f5dc;
 }
 header .navbar a:hover {
-  color: #fa8072;
+  color: #ff6f53;
   text-decoration: none;
 }
 
-section .btn {
+.secsea .sea {
   position: absolute;
-  width: 10%;
-  top: 35%;
-  left: 45%;
-  font-weight: bold;
+  height: 400px;
+  width: 600px;
+  margin-left: 500px;
+  margin-top: 200px;
 }
-section form .row .col {
-  position: absolute;
-  width: 50%;
-  top: 30%;
-  left: 25%;
+.secsea .btnsea .btn {
+  color: #343a40;
+  width: 100px;
+  margin-left: 1110px;
+  margin-top: 200px;
+}
+
+.foobar .navbar {
+  width: 1920px;
+  margin-top: 500px;
+  height: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */

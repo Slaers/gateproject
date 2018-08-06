@@ -33,15 +33,20 @@
 		</nav>
 	</header>
 	
-	<section>
-		<form>
-	  		<div class="row">
-	    		<div class="col">
-	      			<input type="text" class="form-control" placeholder="Search by Battlerite username">
-	    		</div>
+	<section class="secsea">
+			<div class="sea">
+				<input class="form-control" type="text" placeholder="Search by Battlerite username..." readonly>
 			</div>
-		</form>
-			<button type="button" class="btn btn-warning">Search</button>
-	</section>	
+			<div class="btnsea">
+				<button type="button" class="btn btn-warning">Search</button>
+			</div>
+	</section>
+
+	<footer class="foobar">
+		<nav class="navbar navbar-dark bg-dark">
+		</nav>
+	</footer>
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b67a1d14b5b6065"></script>
 </body>
 </html>
