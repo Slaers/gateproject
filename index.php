@@ -32,18 +32,25 @@
 			</div>	
 		</nav>
 	</header>
-	
-	<section class="secsea">
-			<div class="sea">
-				<input class="form-control" type="text" placeholder="Search by Battlerite username..." readonly>
-			</div>
-			<div class="btnsea">
-				<button type="button" class="btn btn-warning">Search</button>
-			</div>
-	</section>
+
+		<div class="sea">
+			<input class="form-control" type="text" placeholder="Search by Battlerite username..." readonly>
+		</div>
+		<div class="region">
+			<select class="custom-select custom-select-sm">
+				<option selected>  </option>
+				<option value="1">SA</option>
+				<option value="2">NA</option>
+				<option value="3">EU</option>
+			</select>
+		</div>
+		<div class="btnsea">
+			<button type="button" class="btn btn-warning">Search</button>
+		</div>
 
 	<footer class="foobar">
-		<nav class="navbar navbar-dark bg-dark">
+		<nav class="navbar">
+			<p>	&#169; 2018 battlerite-gate.com</p>
 		</nav>
 	</footer>
 

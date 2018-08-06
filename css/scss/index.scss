@@ -6,6 +6,9 @@ body {
 	background-size: 2300px;
 	background-position-x: center;  
 }
+p {
+	color: #f5f5dc;
+}
 header {
 	.navbar {
 		height: 80px;
@@ -16,7 +19,7 @@ header {
 				margin-left: 300px;
 				width: 100px;
 				height: 100px;
-			}
+				}
 				.btnlogo {
 					font-family: 'Julius Sans One', sans-serif;
 					margin-left: 14px;
@@ -29,53 +32,59 @@ header {
 						font-family: 'Julius Sans One', sans-serif;
 					} 
 				}
-		}
-		ul {
-			li {
-				display: inline-block;
-				margin-right: 30px;
-				margin-top: 20px;
-				.btnlink {
-					float: left;
-				} 
 			}
-		}
-		.btnsteam .btn {
-			color: #343a40;
-			margin-right: 300px;
-			font-size: 15px;
-		}
-		a {
-			font-size: 14px;
-			color: #f5f5dc;
-			&:hover {
-				color:#ff6f53;
-				text-decoration: none;
-			}	
-		}
+			ul {
+				li {
+					display: inline-block;
+					margin-right: 30px;
+					margin-top: 20px;
+					.btnlink {
+						float: left;
+					} 
+				}
+			}
+			.btnsteam .btn {
+				color: #343a40;
+				margin-right: 300px;
+				font-size: 15px;
+			}
+			a {
+				font-size: 14px;
+				color: #f5f5dc;
+				&:hover {
+					color:#ff6f53;
+					text-decoration: none;
+			}		
+		}	
+	}	
+}
+.sea {
+	width: 800px;
+	margin-left: 400px;
+	margin-top: 300px;
+}
+.region {
+	.custom-select {
+		font-weight: bold;
+		height: 37px;
+		width: 60px;
+		margin-left: 1210px;
+		margin-top: -66px;
 	}
 }
-.secsea {
-	.sea{
-		position: absolute;
-		height: 400px;
-		width: 600px;
-		margin-left: 500px;
-		margin-top: 200px;
-	}.btnsea {
-		.btn {
-			color: #343a40;
-			width: 100px;
-			margin-left: 1110px;
-			margin-top: 200px; 
-		}
-	}				
-}
+.btnsea {
+	.btn {
+		width: 200px;
+		margin-left: 750px;
+		margin-top: -20px;
+	}
+}				
 .foobar {
 	.navbar {
+		background: #161a1d;
 		width: 1920px;
-		margin-top: 500px;
-		height: 200px;
+		margin-top: 400px;
+		height: 150px;
 	}
 }		
 	

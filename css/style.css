@@ -7,6 +7,10 @@ body {
   background-position-x: center;
 }
 
+p {
+  color: #f5f5dc;
+}
+
 header .navbar {
   height: 80px;
   width: 1920px;
@@ -53,24 +57,31 @@ header .navbar a:hover {
   text-decoration: none;
 }
 
-.secsea .sea {
-  position: absolute;
-  height: 400px;
-  width: 600px;
-  margin-left: 500px;
-  margin-top: 200px;
+.sea {
+  width: 800px;
+  margin-left: 400px;
+  margin-top: 300px;
 }
-.secsea .btnsea .btn {
-  color: #343a40;
-  width: 100px;
-  margin-left: 1110px;
-  margin-top: 200px;
+
+.region .custom-select {
+  font-weight: bold;
+  height: 37px;
+  width: 60px;
+  margin-left: 1210px;
+  margin-top: -66px;
+}
+
+.btnsea .btn {
+  width: 200px;
+  margin-left: 750px;
+  margin-top: -20px;
 }
 
 .foobar .navbar {
+  background: #161a1d;
   width: 1920px;
-  margin-top: 500px;
-  height: 200px;
+  margin-top: 400px;
+  height: 150px;
 }
 
 /*# sourceMappingURL=style.css.map */
