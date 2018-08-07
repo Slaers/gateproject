@@ -1,16 +1,17 @@
 @import url("bootstrap.min.css");
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+@import url('https://fonts.googleapis.com/css?family=Khand');
 body {
 	background-image: url("../img/bg2.png");
 	background-repeat: no-repeat;
-	background-size: 2300px;
-	background-position-x: center;  
+	background-size: 1920px;
 }
 p {
 	color: #f5f5dc;
 }
 header {
 	.navbar {
+		opacity: .8;
 		height: 80px;
 		width: 1920px;
 		.logo {
@@ -19,48 +20,54 @@ header {
 				margin-left: 300px;
 				width: 100px;
 				height: 100px;
-				}
-				.btnlogo {
+			}
+			.btnlogo {
+				color: #f5f5dc; 
+				font-family: 'Julius Sans One', sans-serif;
+				margin-left: 14px;
+				margin-right: 500px;
+				font-size: 16px;
+				text-decoration: none;
+				.btndec {
+					margin-left: 7px; 
+					font-weight: bold;
+					font-size: 20px;
 					font-family: 'Julius Sans One', sans-serif;
-					margin-left: 14px;
-					margin-right: 500px;
-					font-size: 16px;
-					.btndec {
-						margin-left: 7px; 
-						font-weight: bold;
-						font-size: 20px;
-						font-family: 'Julius Sans One', sans-serif;
+					&:hover {
+						text-decoration: none;
+						color: #56fafc;
+						}
 					} 
 				}
+		}
+		.headlist {
+			li {
+				display: inline-block;
+				margin-right: 30px;
+				margin-top: 20px;
+				.btnlink {
+					float: left;
+				} 
 			}
-			ul {
-				li {
-					display: inline-block;
-					margin-right: 30px;
-					margin-top: 20px;
-					.btnlink {
-						float: left;
-					} 
-				}
-			}
-			.btnsteam .btn {
-				color: #343a40;
-				margin-right: 300px;
-				font-size: 15px;
-			}
-			a {
-				font-size: 14px;
-				color: #f5f5dc;
-				&:hover {
-					color:#ff6f53;
-					text-decoration: none;
+		}
+		.btnsteam .btn {
+			color: #f5f5dc;
+			margin-right: 300px;
+			font-size: 15px;
+		}
+		.btnlink {
+			font-size: 14px;
+			color: #f5f5dc;
+			&:hover {
+				color:#ff6f53;
+				text-decoration: none;
 			}		
 		}	
 	}	
 }
 .sea {
 	width: 800px;
-	margin-left: 400px;
+	margin-left: 450px;
 	margin-top: 300px;
 }
 .region {
@@ -68,12 +75,14 @@ header {
 		font-weight: bold;
 		height: 37px;
 		width: 60px;
-		margin-left: 1210px;
+		margin-left: 1260px;
 		margin-top: -66px;
 	}
 }
 .btnsea {
 	.btn {
+		color: #f5f5dc;
+		opacity: .8;
 		width: 200px;
 		margin-left: 750px;
 		margin-top: -20px;
@@ -84,7 +93,39 @@ header {
 		background: #161a1d;
 		width: 1920px;
 		margin-top: 400px;
-		height: 150px;
+		height: 250px;
+		.foobox {
+			margin-left: 240px;
+			.foolist {
+			li {
+				font-family: 'Khand', sans-serif;
+				font-size: 20px;
+				display: inline-block;
+				margin-left: 30px;
+				margin-top: 10px;
+				.foolink {
+					color: #f5f5dc;
+					&:hover {
+						color:#ff6f53;  
+					}
+					}
+				}
+			}
+		}
+		.foologo {
+			margin-right: 1050px;
+			.logosl {
+				width: 100px;
+				height: 150px;
+			}
+		}
 	}
-}		
+	p {
+		font-family: 'Khand', sans-serif;
+		text-align: center;
+		color: #f5f5dc;
+		font-size: 13px;
+		margin-left: 700px;
+	}
+}			
 	
