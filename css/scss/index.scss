@@ -36,9 +36,9 @@ header {
 					&:hover {
 						text-decoration: none;
 						color: #56fafc;
-						}
-					} 
-				}
+					}
+				} 
+			}
 		}
 		.headlist {
 			li {
@@ -67,7 +67,7 @@ header {
 }
 .sea {
 	width: 800px;
-	margin-left: 450px;
+	margin-left: 550px;
 	margin-top: 300px;
 }
 .region {
@@ -75,7 +75,7 @@ header {
 		font-weight: bold;
 		height: 37px;
 		width: 60px;
-		margin-left: 1260px;
+		margin-left: 1360px;
 		margin-top: -66px;
 	}
 }
@@ -84,7 +84,7 @@ header {
 		color: #f5f5dc;
 		opacity: .8;
 		width: 200px;
-		margin-left: 750px;
+		margin-left: 850px;
 		margin-top: -20px;
 	}
 }				
@@ -97,35 +97,43 @@ header {
 		.foobox {
 			margin-left: 240px;
 			.foolist {
-			li {
-				font-family: 'Khand', sans-serif;
-				font-size: 20px;
-				display: inline-block;
-				margin-left: 30px;
-				margin-top: 10px;
-				.foolink {
-					color: #f5f5dc;
-					&:hover {
+				li {
+					font-family: 'Khand', sans-serif;
+					font-size: 20px;
+					display: inline-block;
+					margin-top: 20px;
+					margin-left: 30px;
+					margin-bottom: 20px;
+					.foolink {
+						color: #f5f5dc;
+						&:hover {
 						color:#ff6f53;  
-					}
+						}
 					}
 				}
 			}
 		}
-		.foologo {
-			margin-right: 1050px;
+		.foologo1 {
 			.logosl {
 				width: 100px;
 				height: 150px;
+				margin-left: -500px; 
+			}
+		}
+		.foologo2 {
+			.logogate {
+				width: 110px;
+				height: 110px;
+				margin-left: -950px; 
 			}
 		}
 	}
-	p {
+	.footext {
+		margin-left: 65px;
 		font-family: 'Khand', sans-serif;
 		text-align: center;
 		color: #f5f5dc;
 		font-size: 13px;
-		margin-left: 700px;
 	}
 }			
 	
